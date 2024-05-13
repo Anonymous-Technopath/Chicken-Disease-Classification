@@ -242,3 +242,102 @@ Source-Age: 0
 [2024-05-12 21:49:28,770: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
 
 x=============x:]
+[2024-05-13 09:44:44,173: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-05-13 09:44:44,175: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-05-13 09:44:44,177: INFO: common: created directory at artifacts:]
+[2024-05-13 09:44:44,178: INFO: common: created directory at artifacts/prepare_base_model:]
+[2024-05-13 09:50:05,862: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2024-05-13 09:53:57,721: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-05-13 09:53:57,724: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-05-13 09:53:57,725: INFO: common: created directory at artifacts:]
+[2024-05-13 09:53:57,726: INFO: common: created directory at artifacts/prepare_base_model:]
+[2024-05-13 09:53:58,126: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2024-05-13 09:54:24,699: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-05-13 09:54:24,701: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-05-13 09:54:24,702: INFO: common: created directory at artifacts:]
+[2024-05-13 09:54:24,703: INFO: common: created directory at artifacts/prepare_base_model:]
+[2024-05-13 09:54:25,002: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2024-05-13 09:55:20,580: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-05-13 09:55:20,582: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-05-13 09:55:20,583: INFO: common: created directory at artifacts:]
+[2024-05-13 09:55:20,585: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-05-13 09:57:49,064: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-05-13 09:57:49,067: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-05-13 09:57:49,069: INFO: common: created directory at artifacts:]
+[2024-05-13 09:57:49,069: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-05-13 09:58:48,871: INFO: 1264318398: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11621297
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "9078d58f18846f90224572e08b05699040bf7dc5c85c1618a8eac33ea6b63eec"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CF44:32392B:ABD5:E38D:664196D0
+Accept-Ranges: bytes
+Date: Mon, 13 May 2024 04:28:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21723-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1715574481.521408,VS0,VE887
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9c60d8c178da7e05b63220ad2226526a71d6598b
+Expires: Mon, 13 May 2024 04:33:01 GMT
+Source-Age: 1
+
+:]
+[2024-05-13 10:59:41,898: INFO: main: >>>>> stage Data Ingestion stage started <<<<<:]
+[2024-05-13 10:59:41,899: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-05-13 10:59:41,900: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-05-13 10:59:41,900: INFO: common: created directory at artifacts:]
+[2024-05-13 10:59:41,900: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-05-13 11:02:52,198: INFO: main: >>>>> stage Data Ingestion stage started <<<<<:]
+[2024-05-13 11:02:52,200: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-05-13 11:02:52,201: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-05-13 11:02:52,201: INFO: common: created directory at artifacts:]
+[2024-05-13 11:02:52,201: INFO: common: created directory at artifacts/data_ingestion:]
+[2024-05-13 11:02:58,332: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11621297
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "9078d58f18846f90224572e08b05699040bf7dc5c85c1618a8eac33ea6b63eec"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6838:3F2235:54C159:703F10:6641A604
+Accept-Ranges: bytes
+Date: Mon, 13 May 2024 05:32:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10225-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1715578373.033302,VS0,VE971
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 50a0dbc3371b76574346d14af82c9c8c36f1b251
+Expires: Mon, 13 May 2024 05:37:54 GMT
+Source-Age: 1
+
+:]
+[2024-05-13 11:02:58,414: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=============x:]
+[2024-05-13 11:02:58,414: INFO: main: >>>>> stage Prepare base model started <<<<<:]
+[2024-05-13 11:02:58,415: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-05-13 11:02:58,416: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-05-13 11:02:58,416: INFO: common: created directory at artifacts:]
+[2024-05-13 11:02:58,416: INFO: common: created directory at artifacts/prepare_base_model:]
+[2024-05-13 11:02:58,822: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2024-05-13 11:02:59,056: INFO: main: >>>>> stage Prepare base model completed <<<<<
+
+x=============x:]
